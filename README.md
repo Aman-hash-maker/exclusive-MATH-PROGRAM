@@ -19,11 +19,11 @@
 </style>
 </head>
 <body>
-<h2>CSS Buttons</h2>
+<h2>Click here 'CLICK' to ride the group</h2>
 
 
-<a href="#" class="button">Link Button</a>
+<a href="https://facebook.com/groups/sajansiremp/" class="button">Link Button</a>
 
-<input type="button" class="button" value="Input Button">
+
 </body>
 </html>

@@ -22,7 +22,7 @@
 <h2>Click here 'CLICK' to ride the group</h2>
 
 
-<a href="https://facebook.com/groups/sajansiremp/" class="button">Link Button</a>
+<a href="https://facebook.com/groups/sajansiremp/" class="button">CLICK</a>
 
 
 </body>

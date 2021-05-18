@@ -1,4 +1,4 @@
-# exclusive-MATH-PROGRAM
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,11 +70,7 @@ text-decoration: none;
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h3>Vertical Mobile Navbar</h3>
-  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
-  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
-</div>
+
 <!-- End smartphone / tablet look -->
 </div>
 
@@ -92,7 +88,7 @@ document.getElementById("myLinks");
 
 </body>
 </html>
-
+<h2>EXCLUSIVE MATH PROGRAM</h2>
 আসসালামু আলাইকুম। আমি আমান।এসএসসি ২২ ব্যাচের শিক্ষার্থী।আমি মূলত কোনো কোডিং করি না।শুধু শখের বসে কোডিং করতে ভালো লাগে।আর আমি ইএমপি'র মোডারেটর হতে চাচ্ছি।এর জন্য আমাকেও সবার মতো গ্রুপে ইলেকশন করতে হবে।ইন শা আল্লাহ্ করবো।
 এখানে, EMP এর গ্রুপ লিংক আছে CLICK বাটনে।
 <html>

@@ -59,7 +59,7 @@ text-decoration: none;
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
-  <a href="#home" class="active">Logo</a>
+  <a href="#home" class="active">Click the menu button for 💥</a>
   <div id="myLinks">
  <a href="#news">News</a>
     <a href="#contact">Contact</a>

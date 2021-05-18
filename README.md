@@ -1,131 +1,88 @@
-
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-color: white;
-  border-radius: 10px;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
-</head>
-<body>
-
-<!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active">Click the menu button for 💥</a>
-  <div id="myLinks">
- <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-<div style="padding-left:16px">
-  <h3>SAJAN SIR'S DESTINATION</h3>
-<p>☞To make a group of students who will spread the beauty  of math to those students who has a phobia in math</p>
-  <p>☞To enjoy the beauty of math PLEASE JOIN'EXCLUSIVE MATH PROGRAM group'/p>
-</div>
-
-<!-- End smartphone / tablet look -->
-</div>
-
-<script>
-function myFunction() {
-  var x = 
-document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+  <title>Bootstrap Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+height: 200px;
+    background: #aaa;
   }
-}
-</script>
-
-
-
-  
-  
-  
-  
-  
-<h2>EXCLUSIVE MATH PROGRAM</h2>
-আসসালামু আলাইকুম। আমি আমান।এসএসসি ২২ ব্যাচের শিক্ষার্থী।আমি মূলত কোনো কোডিং করি না।শুধু শখের বসে কোডিং করতে ভালো লাগে।আর আমি ইএমপি'র মোডারেটর হতে চাচ্ছি।এর জন্য আমাকেও সবার মতো গ্রুপে ইলেকশন করতে হবে।ইন শা আল্লাহ্ করবো।
-এখানে, EMP এর গ্রুপ লিংক আছে CLICK বাটনে।
-  
-  
-  
-<html>
-<head>
-<style>
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-</style>
+  </style>
 </head>
 <body>
-<h2>Click here 'CLICK' to ride the group</h2>
 
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
 
-<a href="https://facebook.com/groups/sajansiremp/" class="button">CLICK</a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-
+toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+</ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+<div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+ </div>
+  </div>
+</div>
 
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
 
 </body>
 </html>
+
+
+
+
+
+  
+  
+

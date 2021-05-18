@@ -69,7 +69,11 @@ text-decoration: none;
     <i class="fa fa-bars"></i>
   </a>
 </div>
-
+<div style="padding-left:16px">
+  <h3>SAJAN SIR'S DESTINATION</h3>
+<p>☞To make a group of students who will spread the beauty  of math to those students who has a phobia in math</p>
+  <p>☞To enjoy the beauty of math PLEASE JOIN'EXCLUSIVE MATH PROGRAM group'/p>
+</div>
 
 <!-- End smartphone / tablet look -->
 </div>
